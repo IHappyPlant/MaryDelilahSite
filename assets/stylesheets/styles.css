@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* User Styles */
+body {
+  background: rgb(255, 255, 255);
+  color: rgb(136, 136, 136);
+  font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+}
+
+#logo {
+  border-top: 4px solid rgb(100, 136, 128);
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+  line-height: 44px;
+  padding: 40px 0 0;
+  text-transform: uppercase;
+}
+
+#header {
+  margin-top: 10px;
+}
+
+#email {
+  text-align: right;
+}
+
+#email a {
+  text-decoration: none;
+  color: rgb(100, 136, 128);
+}
+
+#phone {
+  margin-top: 10px;
+  text-align: right;
+}
+
+#phone a {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+}
+
+#nav-social {
+  font-size: 0;
+  margin-top: 10px;
+  text-align: right;
+}
+
+#nav-main a {
+  text-decoration: none;
+  color: rgb(100, 136, 128);
+  margin: auto 4px;
+}
+
+#nav-social a:last-child {
+  margin-left: 10px;
+}
+
+#nav-main {
+  text-transform: uppercase;
+  text-align: right;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+#nav-main a:last-child {
+  margin: auto auto auto 4px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  clear: both;
+}
+
+#aboutMe {
+  background: linear-gradient(antiquewhite, aliceblue);
+}
+
+#vocal {
+  padding-top: 20px;
+  background: linear-gradient(aliceblue, beige);
+}
+
+#drums {
+  padding-top: 20px;
+  background: linear-gradient(beige, bisque);
+}
+
+#other {
+  padding-top: 20px;
+  background: linear-gradient(bisque, azure);
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.column:first-child {
+  padding-left: 0;
+}
+
+.column:last-child {
+  padding-right: 0;
+}
