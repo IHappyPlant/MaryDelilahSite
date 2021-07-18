@@ -12,10 +12,10 @@
   <header class="container" id="header">
     <h1 id="logo">Mary-Delilah Music</h1>
 
-    <p id="email"><a href="mailto:mary-delilah@mail.ru">mary-delilah@mail.ru</a></p>
-    <p id="phone"><a href="tel:+7978-756-53-46">+7 (978) 756 53 46</a></p>
+    <p class="email"><a href="mailto:mary-delilah@mail.ru">mary-delilah@mail.ru</a></p>
+    <p class="phone"><a href="tel:+7978-756-53-46">+7 (978) 756 53 46</a></p>
 
-    <nav id="nav-social">
+    <nav class="nav-social">
       <a href="https://www.instagram.com/uroki_vokala_simferopol/">
         <img width="30" height="30" src="assets/img/instagram_logo.svg" alt="instagramLogo">
       </a>
@@ -25,7 +25,7 @@
       </a>
     </nav>
 
-    <nav id="nav-main">
+    <nav class="nav-main">
       <a href="#aboutMe">Обо мне</a>
       <a href="#vocal">Уроки вокала</a>
       <a href="#drums">Уроки игры на барабанах</a>
@@ -81,6 +81,36 @@
     </p>
   </section>
 
-  <footer class="container" id="contacts"></footer>
+  <footer class="container" id="contactsContainer">
+    <form id="feedbackForm" method="post">
+      <fieldset>
+        <legend>Задать вопрос</legend>
+        <label><input type="text" name="name" placeholder="Имя" required></label>
+        <label><input type="text" name="phone" placeholder="Телефон"></label>
+        <label><input type="text" name="email" placeholder="E-mail" required></label>
+        <label><textarea name="comment" placeholder="Комментарий" required></textarea></label>
+        <label><input type="submit" name="sendButton" value="Отправить"></label>
+      </fieldset>
+    </form>
+
+    <div id="contacts">
+      <h1>Контакты</h1>
+
+      <div id="contactsContent">
+        <p class="email"><a href="mailto:mary-delilah@mail.ru">mary-delilah@mail.ru</a></p>
+        <p class="phone"><a href="tel:+7978-756-53-46">+7 (978) 756 53 46</a></p>
+
+        <nav class="nav-social">
+          <a href="https://www.instagram.com/uroki_vokala_simferopol/">
+            <img width="30" height="30" src="assets/img/instagram_logo.svg" alt="instagramLogo">
+          </a>
+
+          <a href="https://vk.com/uroki_vokala_simf_crimea">
+            <img width="30" height="30" src="assets/img/vk_logo.svg" alt="vkLogo">
+          </a>
+        </nav>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

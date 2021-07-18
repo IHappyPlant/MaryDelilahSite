@@ -152,49 +152,49 @@ body {
   margin-top: 10px;
 }
 
-#email {
+.email {
   text-align: right;
 }
 
-#email a {
+.email a {
   text-decoration: none;
   color: rgb(100, 136, 128);
 }
 
-#phone {
+.phone {
   margin-top: 10px;
   text-align: right;
 }
 
-#phone a {
+.phone a {
   text-decoration: none;
   color: rgb(136, 136, 136);
 }
 
-#nav-social {
+.nav-social {
   font-size: 0;
   margin-top: 10px;
   text-align: right;
 }
 
-#nav-main a {
+.nav-main a {
   text-decoration: none;
   color: rgb(100, 136, 128);
   margin: auto 4px;
 }
 
-#nav-social a:last-child {
+.nav-social a:last-child {
   margin-left: 10px;
 }
 
-#nav-main {
+.nav-main {
   text-transform: uppercase;
   text-align: right;
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
 
-#nav-main a:last-child {
+.nav-main a:last-child {
   margin: auto auto auto 4px;
 }
 
@@ -238,4 +238,36 @@ body {
 
 .column:last-child {
   padding-right: 0;
+}
+
+#contactsContainer {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+#feedbackForm input, textarea {
+  display: block;
+  border: 1px solid rgb(198, 201, 204);
+  border-radius: 5px;
+  margin-top: 5px;
+  min-height: 30px;
+  width: 100%;
+}
+
+#feedbackForm textarea {
+  resize: vertical;
+}
+
+#contacts {
+  flex: 1;
+  position: relative;
+  text-align: right;
+}
+
+#contactsContent {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
