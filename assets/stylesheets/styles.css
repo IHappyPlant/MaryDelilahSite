@@ -159,6 +159,7 @@ body {
 .email a {
   text-decoration: none;
   color: rgb(100, 136, 128);
+  transition: color 0.3s;
 }
 
 .phone {
@@ -169,6 +170,7 @@ body {
 .phone a {
   text-decoration: none;
   color: rgb(136, 136, 136);
+  transition: color 0.3s;
 }
 
 .nav-social {
@@ -180,7 +182,9 @@ body {
 .nav-main a {
   text-decoration: none;
   color: rgb(100, 136, 128);
-  margin: auto 4px;
+  margin: auto 8px;
+  font-size: 20px;
+  transition: color 0.3s;
 }
 
 .email a:hover {
@@ -210,6 +214,11 @@ body {
   color: blue;
 }
 
+.heading {
+  font-size: 32px;
+  text-align: center;
+}
+
 .container {
   margin: 0 auto;
   width: 960px;
@@ -217,16 +226,8 @@ body {
   overflow: auto;
 }
 
-.container h1 {
-  font-size: 32px;
-}
-
 #aboutMe {
   background: linear-gradient(antiquewhite, aliceblue);
-}
-
-#aboutMe h1 {
-  text-align: center;
 }
 
 #maryDPhotoContainer {
@@ -241,17 +242,17 @@ body {
   height: 100%;
 }
 
-#aboutMeContent {
+.sectionContent {
   font-size: 26px;
   display: inline-block;
   padding-left: 50px;
 }
 
-#aboutMeContent ul {
+.sectionContent ul {
   list-style-type: disc;
 }
 
-#aboutMeContent li {
+.sectionContent li {
   margin-top: 10px;
 }
 
@@ -294,6 +295,10 @@ body {
   flex-direction: row;
 }
 
+#feedbackForm {
+  flex: 0.3;
+}
+
 #feedbackForm input,
 textarea {
   display: block;
@@ -309,7 +314,7 @@ textarea {
 }
 
 #contacts {
-  flex: 1;
+  flex: 0.7;
   position: relative;
   text-align: right;
 }
